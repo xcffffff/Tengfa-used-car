@@ -4,7 +4,8 @@
         "pages/Used/Used",
         "pages/map/map",
         "pages/detail/detail",
-        "pages/san/san"
+        "pages/san/san",
+        "pages/sed/sed"
     ],
     "window": {
         "backgroundTextStyle": "light",

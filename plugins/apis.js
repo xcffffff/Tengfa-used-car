@@ -15,4 +15,19 @@ export function xiangqing(obj) {
         url: baseUrl + `/tfcar/car/basicInfo/${obj}`
     })
 }
+export function Brand(obj) {
+    return axios({
+        url: baseUrl + `/tfcar/car/customSeries`
+    })
+}
+export function Models(obj) {
+    return axios({
+        url: baseUrl + `/tfcar/car/model`
+    })
+}
+export function Price(obj) {
+    return axios({
+        url: baseUrl + `/tfcar/car/price`
+    })
+}
 

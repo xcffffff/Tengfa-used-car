@@ -1,0 +1,81 @@
+<view class="usedCar">
+    <view class="mask" hidden="{{maskFlag}}"></view>
+    <view class="header">
+        <view class="tab">
+            <view class="tab_logo">
+                <image class="img1" src="data:image/png;base64,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"></image>
+            </view>
+            <view class="list {{show==index?'t':''}}" wx:for="{{titleNav}}" wx:key="index">{{item}}</view>
+        </view>
+        <view class="box">
+            <view class="box1">
+                <image src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA6lBMVEUAAAAAAAD///+qqqqqqqq2trafn7+qqqq5ubmqqr+qqraurrWoqLSurrSqqrWqqrWsrLWoqLKqqrOpqbaoq7Krq7aoq7KqqrSqqrOpqbKpqbSprLSpqbOpqbOrq7SqqrOpqbWpqbKqqrOqqrSpqbOpqbOpq7Srq7SqqrOpq7Srq7SoqrSpq7OoqrOpq7Spq7Spq7SqqrOpqrKqqrSqq7SpqrOqq7OpqrSqqrOpqrSpqrKpqbOpqrKpqbKpqrOpqrOpqrOqqrOpqrSpqrKpqrOpqrOpqrOpqrSpqrOqq7OpqrOpqrOpqrOpqrM4V1ROAAAATXRSTlMAAQEDBgcICQsMFSYsLC0wNDU2O0lJTE5UWV9fZWhqbG50dXuDhoiIiouOn6Gio6Snq6ywsLW2t9HS1dnf4uLj5ezw9vf5+vr7+/z9/t6VsRUAAADuSURBVBgZrcFpNwJhGAbg25RBJSlLC6YF2VosYSgtqFT3//875pn3nTEz5RwfXBf+gZlv2sOh3cybWFLsUesVEWa2GNAyERB7YshjDD/qjKjDl5xQzDu1WmdOMUnC06AYZOHIDiga0OIjOmYZuHZndIziUHIU99AeKHJQChRVaFWKAhSLogKtQmFBKVHcQrujKEHZo5im4UpPKfahJBYU3RQcqS7FIgHtma5xu1xuj+my4TnhEguezTdG9LfgO2DEIQLOGHKOoLVrBtwYCDEu6bsyEHX0TtfHMVbYfqHjdQcrrZ9+fl1s4DfpDP7sG8cwW6DtXcQ+AAAAAElFTkSuQmCC"></image>
+                <text>全国</text>
+            </view>
+            <view class="box2">
+                <image src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAMAAAANmfvwAAAA81BMVEUAAACAgICqqqqfn5+Ojo6kpKSZmZmfn5+UlJSenp6ZmZmTk5OXl5eXl5eenp6ampqXl5ecnJyampqampqXl5eZmZmampqampqampqYmJibm5uYmJiampqYmJibm5uYmJiYmJibm5uampqZmZmZmZmYmJiampqampqampqZmZmZmZmampqampqZmZmZmZmZmZmZmZmZmZmZmZmampqampqZmZmYmJiampqZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmYmJiZmZmZmZmZmZmYmJiZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZnfQTEDAAAAUHRSTlMAAgMICQ4PEBMVGRobICIrLCw1OkBGSUxOT09SU1RUV15eYmRpbXJ5fn+CkpqbnaKqsra4u7zJzNLT3N3e3+Hk5+jp6+zt8vP29vf5+vv9/p8vDUQAAAEkSURBVBgZvcFpVwFRAAbgl7LTbSS0iLJUZC+ypbmSjGHe//9rOjmdunN1pm+eB/t3eNEczJejx0oCf/MVp/y2rsfwh2CHtNrl89Pr2gs5S2FH8JlOPYot/80r7Sw0vg6XefyI9/luwK1IJw9FeMgeXA6nfIBL0uEVVJe0onBrsQtVk21oMlwFoBiwDM3BhidQzHkGnckcFEueQjdhAYoRr6GzmIbiiTVoDPIIigpf/HC75xiqxJo3cAm+sQqXOl/jUDW4iMAlNmM/jF+3ZAmalM1hEt+CDdI2oMu+02llDgAYdzPSphTQGT2SG3NikVyUjiWlwI6r7opfxtUIIExKgV2Bk1whfYQtISkFvAlJKeBNSEoBb0LSDMGbMD+i+Ecoin36BDo9MiemW6C3AAAAAElFTkSuQmCC"></image>
+                <input type="text" placeholder="搜索品牌、车型" />
+            </view>
+        </view>
+        <view class="navCar_ul">
+            <view class="navCar_li" bindtap="navCar" data-msg="排序">
+                <view>{{sortMsg}}</view>
+                <image src="{{sortArrowsFlag? sortArrows:'../../static/icons/shangjiantou.png'}}"></image>
+                <view class="sort" hidden="{{sortArrowsFlag}}">
+                    <view class="sort_list" wx:for="{{sort}}" wx:key="index" bindtap="sortClick" data-sort="{{item.sort}}">
+                        {{item.name}}
+                    </view>
+                </view>
+            </view>
+            <view class="navCar_li" bindtap="navCar" data-msg="品牌">
+                <view>{{brandMsg}}</view>
+                <image src="{{brandArrowsFlag? brandArrows:'../../static/icons/shangjiantou.png'}}"></image>
+                <view class="brand_list" hidden="{{brandArrowsFlag}}">
+                    <view class="brand_ziMu" wx:for="{{brandArr}}" wx:key="index">
+                        <view class="ziMu_li">{{item.brand}}</view>
+                        <block wx:for="{{item.childer}}" wx:for-item="ele" wx:for-index="i" wx:key="i">
+                            <view class="Brand" bindtap="brandClick" data-id="{{ele.id}}">
+                                {{ele.name}}
+                            </view>
+                        </block>
+                    </view>
+                </view>
+            </view>
+            <view class="navCar_li" bindtap="navCar" data-msg="价格">
+                <view>{{priceMsg}}</view>
+                <image src="{{priceArrowsFlag? priceArrows:'../../static/icons/shangjiantou.png'}}"></image>
+                <view class="price_list" hidden="{{priceArrowsFlag}}">
+                    <view class="price_li" wx:for="{{priceArr}}" wx:key="index" bindtap="priceClick" data-price="{{item.queryRules}}">{{item.label}}</view>
+                </view>
+            </view>
+            <view class="navCar_li" bindtap="navCar" data-msg="车型">
+                <view>{{carTypeMsg}}</view>
+                <image src="{{carTypeArrowsFlag? carTypeArrows:'../../static/icons/shangjiantou.png'}}"></image>
+                <view class="carType_list" hidden="{{carTypeArrowsFlag}}">
+                    <view class="carType_li" wx:for="{{carTypeArr}}" wx:key="index" bindtap="carTypeClick" data-type="{{item.id}}">{{item.model}}</view>
+                </view>
+            </view>
+            <view class="navCar_li" bindtap="navCar" data-msg="更多">
+                <view>{{moreMsg}}</view>
+                <image src="{{moreArrowsFlag? moreArrows:'../../static/icons/shangjiantou.png'}}"></image>
+            </view>
+        </view>
+        <view class="select_ul">
+            <view class="select_li" wx:for="{{selectArr}}" wx:key="index" bindtap="selec" data-num="{{item.saleType}}">
+                {{item.name}}
+            </view>
+        </view>
+    </view>
+    <view class="carList">
+        <view class="carList_ul">
+            <view class="carList_li" wx:for="{{arr}}" wx:key="index">
+                <image src="{{item.cover}}"></image>
+                <view class="text">
+                    <view class="title">{{item.carName}}</view>
+                    <view class="dataTime">{{item.dateOfRegistration}} / {{item.mileage}}万公里</view>
+                    <view class="price">{{item.currentPrice}}万</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
