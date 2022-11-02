@@ -1,0 +1,25 @@
+.box{
+    display: flex;
+    align-items: center;
+    width: 750rpx;
+    height: 70rpx;
+}
+.box1{
+    width: 100rpx;
+    height: 70rpx;
+    border-right: 1px solid #bfbfbf;
+}
+.img1{
+    width: 80rpx;
+    height: 40rpx;
+}
+.list{
+  height: 70rpx;
+  margin-left: 20rpx;
+  font-weight: 400;
+  font-size: 35rpx;
+}
+.t{
+  color: aqua;
+}
+

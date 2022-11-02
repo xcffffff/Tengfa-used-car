@@ -1,4 +1,4 @@
 <!--index.wxml-->
-<view class="container">
-  Weixin
-</view>
+<tb></tb>
+<sou> </sou>
+<mai></mai>

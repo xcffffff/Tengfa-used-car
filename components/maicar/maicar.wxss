@@ -1,0 +1,22 @@
+.box1{
+  position: relative;
+  width: 725rpx;
+  height: 300rpx;
+  /* background-color: aqua; */
+  margin-left: 25rpx;
+}
+.box{
+  width: 750rpx;
+  height: 400rpx;
+  margin-top: 20rpx;
+}
+.img1{
+  position: absolute;
+  width: 725rpx;
+  height: 300rpx;
+}
+.txt{
+  position: absolute;
+  top: 10rpx;
+  left: 0;
+}

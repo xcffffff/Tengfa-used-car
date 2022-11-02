@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "tb":"../../components/tb/tb",
+    "sou":"../../components/sou/sou",
+    "mai":"../../components/maicar/maicar"
+  }
 }

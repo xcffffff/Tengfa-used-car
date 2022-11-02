@@ -1,0 +1,39 @@
+.box{
+  margin-top: 30rpx;
+  display: flex;
+  align-content: center;
+  width: 750rpx;
+  height: 70rpx;
+}
+.box1{
+  display: flex;
+  align-items: center;
+  width: 150rpx;
+  height: 70rpx;
+  margin-left: 25rpx;
+}
+.box1>image{
+  width: 30rpx;
+  height: 30rpx;
+}
+.box1>text{
+  margin-left: 15rpx;
+  font-size: 35rpx;
+}
+.box2{
+  display: flex;
+  align-items: center;
+  width: 550rpx;
+  height: 70rpx;
+  border-radius: 30rpx;
+  background-color: #caccd1;
+}
+.box2>image{
+  margin-left: 100rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.box2>input{
+  width: 400rpx;
+  height: 70rpx;
+}

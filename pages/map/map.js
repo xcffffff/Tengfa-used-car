@@ -1,5 +1,4 @@
 // pages/map/map.js
-// const{}=require("../../api/index")
 Page({
 
     /**

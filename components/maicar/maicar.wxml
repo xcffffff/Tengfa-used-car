@@ -1,0 +1,7 @@
+<view class="box">
+<view class="box1">
+  <image class="img1" src="../../static/icons/home_guche.6eb9a788.png"></image>
+  <text class="txt">我要卖车</text>
+</view>
+
+</view>
