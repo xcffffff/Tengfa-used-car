@@ -1,18 +1,37 @@
-// pages/Used/Used.js
+const { getCarList } = require("../../plugins/apis")
 Page({
-
     /**
      * 页面的初始数据
      */
     data: {
-
+        sort: [
+            {
+                name: "默认排序",
+                sort: "",
+            },
+            {
+                name: "最新发布",
+                sort: "uTime,desc",
+            },
+            {
+                name: "价格最高",
+                sort: "currentPrice,desc",
+            },
+            {
+                name: "价格最低",
+                sort: "currentPrice,asc",
+            },
+        ],
+        navArr: ["排序", "品牌", "价格", "车型", "更多"]
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad(options) {
-
+        getCarList({}).then(res => {
+            console.log(res);
+        })
     },
 
     /**
