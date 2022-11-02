@@ -2,7 +2,9 @@
     "pages": [
         "pages/index/index",
         "pages/Used/Used",
-        "pages/map/map"
+        "pages/map/map",
+        "pages/echarts/echarts",
+        "pages/ec/ec"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -11,8 +13,7 @@
         "navigationBarTextStyle": "black"
     },
     "tabBar": {
-        "list": [
-            {
+        "list": [{
                 "text": "首页",
                 "pagePath": "pages/index/index",
                 "iconPath": "./static/icons/shouye1.png",
@@ -29,6 +30,10 @@
                 "pagePath": "pages/map/map",
                 "iconPath": "./static/icons/gerenzhongxin1.png",
                 "selectedIconPath": "./static/icons/gerenzhongxin.png"
+            },
+            {
+                "text": "图表",
+                "pagePath": "pages/ec/ec"
             }
         ]
     },

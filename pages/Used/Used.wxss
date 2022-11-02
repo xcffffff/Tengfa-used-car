@@ -1,11 +1,44 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    z-index: 1;
+}
+
+.tab {
+    width: 100%;
+    display: flex;
+    padding: 0 30rpx;
+    box-sizing: border-box;
+    font-size: 28rpx;
+    align-items: center;
+}
+
+.tab .tab_logo {
+    width: 50rpx;
+    height: 40rpx;
+    margin-right: 20rpx;
+}
+
+.tab .tab_logo image {
+    width: 100%;
+    height: 100%;
+}
+
+.tab .list {
+    margin-right: 30rpx;
+}
+
 .box {
     margin-top: 30rpx;
     display: flex;
     align-content: center;
     width: 750rpx;
     height: 70rpx;
-    padding-bottom: 10rpx;
+    padding: 10rpx 0;
     border-bottom: 1px solid #caccd1;
+    border-top: 1px solid #caccd1;
 }
 
 .box1 {
@@ -45,4 +78,215 @@
 .box2>input {
     width: 400rpx;
     height: 70rpx;
+}
+
+.navCar_ul {
+    position: relative;
+    width: 100%;
+    padding: 20rpx;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.mask {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .6);
+}
+
+.sort {
+    position: fixed;
+    top: 220rpx;
+    left: 0;
+    width: 100%;
+    padding: 26rpx;
+    box-sizing: border-box;
+    font-size: 28rpx;
+    color: #333;
+    background: #fff;
+    border-bottom-left-radius: 18rpx;
+    border-bottom-right-radius: 18rpx;
+    z-index: 2;
+}
+
+.sort_list {
+    width: 100%;
+    padding: 24rpx 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.price_list {
+    position: fixed;
+    top: 220rpx;
+    left: 0;
+    width: 100%;
+    padding: 26rpx;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 28rpx;
+    color: #333;
+    background: #fff;
+    border-bottom-left-radius: 18rpx;
+    border-bottom-right-radius: 18rpx;
+    z-index: 2;
+}
+
+.price_li {
+    width: 200rpx;
+    padding: 10rpx 0;
+    margin: 16rpx 0;
+    text-align: center;
+    background: #f5f7fe;
+    border-radius: 30rpx;
+}
+
+.carType_list {
+    position: fixed;
+    top: 220rpx;
+    left: 0;
+    width: 100%;
+    padding: 26rpx;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 28rpx;
+    color: #333;
+    background: #fff;
+    border-bottom-left-radius: 18rpx;
+    border-bottom-right-radius: 18rpx;
+    z-index: 2;
+}
+
+.carType_li {
+    width: 200rpx;
+    padding: 10rpx 0;
+    margin: 16rpx 0;
+    text-align: center;
+    background: #f5f7fe;
+    border-radius: 30rpx;
+}
+
+.brand_list {
+    position: fixed;
+    top: 220rpx;
+    left: 0;
+    width: 100%;
+    height: 1100rpx;
+    overflow-y: scroll;
+    padding: 26rpx;
+    box-sizing: border-box;
+    font-size: 28rpx;
+    color: #333;
+    background: #fff;
+    z-index: 2;
+}
+
+.ziMu_li {
+    width: 100%;
+    height: 60rpx;
+    line-height: 60rpx;
+    background: #f3f4f7;
+    margin-bottom: 20rpx;
+}
+
+.Brand {
+    color: #323233;
+    font-size: 26rpx;
+    margin-bottom: 20rpx;
+}
+
+.navCar_li {
+    width: 100%;
+    font-size: 26rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navCar_li image {
+    width: 30rpx;
+    height: 30rpx;
+    margin-left: 6rpx;
+}
+
+.select_ul {
+    width: 100%;
+    padding: 20rpx;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.select_li {
+    padding: 10rpx 22rpx;
+    color: #333;
+    font-size: 26rpx;
+    text-align: center;
+    border-radius: 20rpx;
+    background: #f5f7fe;
+}
+
+.carList {
+    width: 100%;
+    padding-top: 350rpx;
+}
+
+.carList_ul {
+    width: 100%;
+    padding: 0 30rpx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.carList_li {
+    width: 338rpx;
+    border: 1px solid #f5f7fe;
+    border-radius: 10rpx;
+}
+
+.carList_li image {
+    width: 338rpx;
+    height: 250rpx;
+    border-radius: 10rpx;
+    margin-bottom: 10rpx;
+}
+
+.text {
+    width: 100%;
+    font-size: 30rpx;
+    box-sizing: border-box;
+}
+
+.text view {
+    margin-bottom: 10rpx;
+}
+
+.text .title {
+    font-weight: 600;
+    color: #000000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.text .dataTime {
+    font-size: 25rpx;
+    color: #999;
+}
+
+.text .price {
+    font-weight: 600;
+    font-size: 30rpx;
+    color: #e73424;
+    padding-bottom: 50rpx;
 }
