@@ -1,33 +1,32 @@
-const {getCarList} =require('../../plugins/apis')
-const time  =require('../../utils/utils')
+// pages/detail/detail.js
+const {xiangqing} = require('../../plugins/apis')
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-        arr:['排序','品牌','价格','车型','更多'],
-        arr1:['腾发自营','车主自营','限时优惠','严选好车'],
-        arr2:[]
+        id:''
     },
     qq(){
-        getCarList({}).then(res=>{
-            res.data.data.content.forEach(e=>{
-                let sj =time.formatTime(new Date(e.dateOfRegistration))
-                // console.log();
-                sj=sj.split(' ')[0]
-                e.dateOfRegistration= sj
-            })
-            this.setData({
-                arr2:res.data.data.content
-            })
-            console.log(this.data.arr2);
+        xiangqing(
+            this.data.id
+        ).then(res=>{
+                console.log(res.data.data);
         })
     },
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad(options) {
+        const eventChannel = this.getOpenerEventChannel()
+        eventChannel.on("san",(data)=>{
+            console.log(data);
+            this.setData({
+                id:data
+            })
+            // console.log(this.data.id);
+        })
         this.qq()
     },
 

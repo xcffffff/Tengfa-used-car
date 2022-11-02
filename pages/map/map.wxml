@@ -1,2 +1,18 @@
-<!--pages/map/map.wxml-->
-<text>pages/map/map.wxml</text>
+<view class="section map_container">
+  <map id="loactionMap" longitude="{{longitude}}" latitude="{{latitude}}" scale="17" show-location="true"  bindregionchange="regionChange" class="map">
+    <cover-view class="controls-center" style="bottom:{{mapHeight/2}}px;left:{{mapWidth/2 - 14}}px;">
+      <cover-image class="location-center-img" src="../../static/icons/xiajiantou.png" />
+    </cover-view>
+ 
+    <cover-view class="controls-address-panel" style="bottom:0px;left:0px;">
+      <cover-view class="map_text">
+        <cover-view>
+          <cover-view class="address-name">{{textData.name}}</cover-view>
+          <cover-image wx:if="{{searchLoadingStatus==1}}" 
+          class="cover-image-loading" src="/images/goLoad.gif" />
+        </cover-view>
+        <cover-view class="address-desc">{{textData.desc}}</cover-view>
+      </cover-view>
+    </cover-view>
+  </map>
+</view>

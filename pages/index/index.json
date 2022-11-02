@@ -2,6 +2,8 @@
   "usingComponents": {
     "tb":"../../components/tb/tb",
     "sou":"../../components/sou/sou",
-    "mai":"../../components/maicar/maicar"
+    "mai":"../../components/maicar/maicar",
+    "choose":"../../components/chooseCar/chooseCar",
+    "car":"../../components/car/car"
   }
 }

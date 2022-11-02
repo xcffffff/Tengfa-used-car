@@ -2,6 +2,21 @@
 <view class="box1">
   <image class="img1" src="../../static/icons/home_guche.6eb9a788.png"></image>
   <text class="txt">我要卖车</text>
+  <text class="txt1">提交信息，快速获取评估价</text>
+  <view class="sou">
+      <view class="inp">请输入手机号</view>
+      <view class="zi">立即估值</view>
+  </view>
 </view>
-
+  <view class="box2">  
+          <view class="list1">
+            <image class="img2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAABuVBMVEUAAAD///+qqqqqqv+AgL+/v7+ZmcyqqtWfv7+zs8yqqr+kpMifr7+lpcOqqsampr+qqsKmscinp8SlpcWlrcWnr8eiqsGqqsGlpcOlrcOoqL2oqMWlrMGlrMiorsOqqsKkqsGoqMOqqsOlqsKprcKlqcGmqsKnp7+prcSmqsSlqcKprMKkqMCnqsKoq8OmqcKnqsKmqcGlq8KnqsSlq8Goq8SmqcKoq8OnrMOmq8GnqcKoqsKlqsKmqMKnrMOmq8Smq8Gmq8OnqcSmqsKmq8KoqsOmqsKlqcOlq8OmqsGmqcKmqcKmqsKnq8KmqcKlq8OmqcOnqsKlq8KnqsOnq8OmqcKnqsOmqcOnqsKmq8KnqsKmqcKlqsOmqcGnq8OmqsGnqsOmqsKlqsKmqsKnqsOmqsKnqsKmqcGnqsOmqsKnqsOmqsKnqsKmqsKmqsKlqsKmq8OnqsKmqsOmqsOmqsKlqsKmqsOmqsOmqcKmqsKmqsKmq8KmqsKmqsKmqsKnqsKmqcGmqsKmqsKmqsKmq8KmqsKnqsKmqsKmqsKmqsKnqsOmqcKnq8KmqsKmqsKmqsOmqsKnq8OmqsIM2e0+AAAAknRSTlMAAQMDBAQFBggKDA4QERIUFRcaHx8gISEiIiMjJSUmKi0vMzY7Pj9AQUVHR0lLTFNUVlhaW1tcXmJnaGlsbW5wc3N0dXZ4gYODhIaJiouSlJWWl5mam5yen6CipKWpqq6ur7O1tri8vsLDxMXFxsnKy83P09TV1djZ2dra3d/i5+jp6+/v8PDy8/T19/j7/P3+/pUFPywAAAFkSURBVBgZzcH7O5NhAAbgZwtFa1IpWc2ZDiSU0mkOwzrY6CSKGlaNhkKtFaOojVbt+Yvt2r7D+36+b7/V5b6xj9T5l38kvzxrRn6lr9LMiZxFHhWr1Hyvh6WSjxR8K4eVu5S8hIVDCUrSbpi7RAMvzPXRYBTm7tEgCHMeGjyCuSYa3IQ5+zolqWOwcIuSYVgpfE1B9AgsOcLUxFzIo2gwyazUEwfyO9o1MTcf7DmJ/+j4QCDLjYzDgSz/NTuMGreYcwMZDVTMHITMtUnFCDJuU/UYEtssVRFkPKXmIkRXqUnYACxSs2KDzv6JujPAgR3qWqFrp+AyUEXBAnRvKPABHRRVQ3XqDwVTwH2KhqDqpWgNCFEUhSpEUdqJOCUnoNig5FwZZW1Q/KLEc4GyO1BcGY/9pW7MS8H22weV0DnP909+/s2sDy+Y8/Pd8PWaAuxVXNvpex7+Gn8fX5p+2N1y2oZ/aRe6zVYDxhGQvAAAAABJRU5ErkJggg=="></image>
+            <text>全国代购</text>
+          </view>
+        <view class="list2"></view>
+          <view class="list3">
+              <image class="img2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAA1VBMVEUAAACAgICqqqqZmcyqqtWdscSxscSfr7+np8eor8Wjqr+kqsGmpsKmrMKnrMaorcWlqsKnrMOpqcKprcKmqsSlqcKnqsSlqMGlq8GnrMOlqsOnqcGnq8SmqcKnqcKnq8KmqsKlqcOmqsOnqcKmqcKmq8OmqsKlq8KmqsOnq8Omq8SnqsGlqsOmqcKnqsKnqsGmqsKlqsKnqsOmqsKmqsKnqsOmqsKmqcKmqsKmqsKmqsKnqsKmqsGmqsKmqsGmq8OmqsKmqsKmqsKlqcKmqsOmqsKmqsJ1aZImAAAARnRSTlMAAgMFBg0NECAjJC0uLjE1Njc7O0VHV1tbbm90dHZ6en6DhIWGiYqLkJGSmZynqra7vNDR0tPV1trf4uLj5+jp6u70+v3+TZvklwAAAOlJREFUOMvl1McOgkAYBGBAFLtgwd57QVGwN1Tc938kXZbFVdpZnQOTf/IdCCZS1BeFGV6ALZcBY4MV4JjKpwtfneE1/AFnwCWzdycC14ik447u8MgRcAw8Mn65jO4F9bQFl+aiO/fSggoaVNwqagXfFkzu4X1OodZ4XoO9S+L99ZJsYTQpBmkad6g0GeVZfNt+RV4wm0ctCDbCwkd0vUkYvVpFYCc26KYJ2J3369INgLvcrMG+SbWmfDfuxrRFwL7Xd+z9DTwtntn6QzlgzANfWEVzzheW0Zz9bdjxgm0Cxg/ucBf7mr/uB++9zTEdbIf1AAAAAElFTkSuQmCC"></image>
+              <text>到店估值</text>
+          </view>
+  </view>
 </view>

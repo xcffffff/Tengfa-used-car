@@ -1,2 +1,26 @@
-<!--pages/Used/Used.wxml-->
-<text>pages/Used/Used.wxml</text>
+<tb></tb>
+<sou></sou>
+<view class="choose">
+   <view class="list" wx:for="{{arr}}" wx:key="index">
+        <text>{{item}}</text>
+        <image src="../../static/icons/xiajiantou.png"></image>
+   </view>
+</view>
+<view class="method">
+    
+    <view class="list1" wx:for="{{arr1}}" wx:key="index">{{item}}</view>
+</view>
+<view class="box4">
+    <view class="list2" >
+            <view class="car" wx:for="{{arr2}}" wx:key="index" bindtap="tz" data-id="{{item.ind}}">
+                    <image src="{{item.cover}}"></image>
+                    <view class="name">{{item.carName}}</view>
+                    <view class="xq">
+                    <text>{{item.dateOfRegistration}}日</text>
+                    <text>/</text>
+                    <text>{{item.mileage}}万公里</text>
+                    </view>
+                    <view class="qian">{{item.currentPrice}}万</view>
+            </view>
+    </view>
+</view>

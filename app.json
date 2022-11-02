@@ -2,7 +2,9 @@
     "pages": [
         "pages/index/index",
         "pages/Used/Used",
-        "pages/map/map"
+        "pages/map/map",
+        "pages/detail/detail",
+        "pages/san/san"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -27,6 +29,12 @@
             {
                 "text": "地图",
                 "pagePath": "pages/map/map",
+                "iconPath": "./static/icons/gerenzhongxin1.png",
+                "selectedIconPath": "./static/icons/gerenzhongxin.png"
+            },
+            {
+                "text": "Echarts",
+                "pagePath": "pages/san/san",
                 "iconPath": "./static/icons/gerenzhongxin1.png",
                 "selectedIconPath": "./static/icons/gerenzhongxin.png"
             }
