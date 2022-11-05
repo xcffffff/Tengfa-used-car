@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "appid": "wxe4dff3b6bfe1ec29",
-=======
     "appid": "wxe54e20e573cc627f",
->>>>>>> 2cb16c83928d2cdafccd0c6144ef6950ed3e8c48
     "compileType": "miniprogram",
     "libVersion": "2.27.1",
     "packOptions": {
@@ -28,5 +24,6 @@
     "editorSetting": {
         "tabIndent": "insertSpaces",
         "tabSize": 4
-    }
+    },
+    "projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%BD%91%E6%98%93%E4%BA%91"
 }

@@ -1,24 +1,11 @@
 function formatTime(date) {
-<<<<<<< HEAD
-    var year = date.getFullYear()
-    var month = date.getMonth() + 1
-    var day = date.getDate()
-=======
     var year =  date.getFullYear()
     var month = date.getMonth() + 1
     var day = date.getDate()
-
->>>>>>> 2cb16c83928d2cdafccd0c6144ef6950ed3e8c48
     var hour = date.getHours()
     var minute = date.getMinutes()
     var second = date.getSeconds()
-
-
-<<<<<<< HEAD
-    return [year, month, day].map(formatNumber).join('-')
-=======
     return [year, month, day].map(formatNumber).join('/') + ' ' + [hour, minute, second].map(formatNumber).join(':')
->>>>>>> 2cb16c83928d2cdafccd0c6144ef6950ed3e8c48
 }
 
 function formatNumber(n) {
@@ -52,11 +39,7 @@ function formatTimeTwo(number, format) {
 }
 
 module.exports = {
-<<<<<<< HEAD
-    formatTime: formatTime,  // 日期转时间戳
-    formatTimeTwo: formatTimeTwo  // 时间戳转日期
-=======
     formatTime: formatTime,
     formatTimeTwo: formatTimeTwo  
->>>>>>> 2cb16c83928d2cdafccd0c6144ef6950ed3e8c48
+
 }

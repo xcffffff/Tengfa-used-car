@@ -2,7 +2,7 @@ const axios = require('./axios')
 const baseUrl = "https://api.tf2sc.cn/api"
 export function getCarList(obj) {
     return axios({
-<<<<<<< HEAD
+
         url: baseUrl + "/tfcar/car/list",
         ...obj
     })
@@ -25,10 +25,7 @@ export function getCarModel(obj) {
         ...obj
     })
 }
-=======
-        url: baseUrl + `/tfcar/car/list`
-    })
-}
+
 export function getNav(obj) {
     return axios({
         url: baseUrl + `/tfcar/car/convenient`
@@ -55,4 +52,3 @@ export function Price(obj) {
     })
 }
 
->>>>>>> 2cb16c83928d2cdafccd0c6144ef6950ed3e8c48

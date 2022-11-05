@@ -1,17 +1,11 @@
-<<<<<<< HEAD
 const { getCarList, getBrand, getPrice, getCarModel } = require("../../plugins/apis")
 const time = require("../../utils/utils")
 let dateOfRegistration = []
-=======
-const {getCarList} =require('../../plugins/apis')
-const time  =require('../../utils/utils')
->>>>>>> 2cb16c83928d2cdafccd0c6144ef6950ed3e8c48
 Page({
     /**
      * 页面的初始数据
      */
     data: {
-<<<<<<< HEAD
         titleNav: ['首页', '二手车', '新车', '卖车', '腾发服务'],
         arr: [],
         brandArr: [], //品牌全部
@@ -235,38 +229,16 @@ Page({
             carBrand: e.currentTarget.dataset.id
         })
         this.getcarlist()
-=======
-        arr:['排序','品牌','价格','车型','更多'],
-        arr1:['腾发自营','车主自营','限时优惠','严选好车'],
-        arr2:[]
     },
-    qq(){
-        getCarList({}).then(res=>{
-            res.data.data.content.forEach(e=>{
-                let sj =time.formatTime(new Date(e.dateOfRegistration))
-                // console.log();
-                sj=sj.split(' ')[0]
-                e.dateOfRegistration= sj
-            })
-            this.setData({
-                arr2:res.data.data.content
-            })
-            console.log(this.data.arr2);
-        })
->>>>>>> 2cb16c83928d2cdafccd0c6144ef6950ed3e8c48
-    },
+
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad(options) {
-<<<<<<< HEAD
         this.getcarlist()
         this.getbrand()
         this.getprice()
         this.getcarmodel()
-=======
-        this.qq()
->>>>>>> 2cb16c83928d2cdafccd0c6144ef6950ed3e8c48
     },
 
     /**

@@ -3,14 +3,11 @@
         "pages/index/index",
         "pages/Used/Used",
         "pages/map/map",
-<<<<<<< HEAD
         "pages/echarts/echarts",
-        "pages/ec/ec"
-=======
+        "pages/ec/ec",
         "pages/detail/detail",
         "pages/san/san",
         "pages/sed/sed"
->>>>>>> 2cb16c83928d2cdafccd0c6144ef6950ed3e8c48
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -38,15 +35,10 @@
                 "selectedIconPath": "./static/icons/gerenzhongxin.png"
             },
             {
-<<<<<<< HEAD
-                "text": "图表",
-                "pagePath": "pages/ec/ec"
-=======
                 "text": "Echarts",
                 "pagePath": "pages/san/san",
                 "iconPath": "./static/icons/gerenzhongxin1.png",
                 "selectedIconPath": "./static/icons/gerenzhongxin.png"
->>>>>>> 2cb16c83928d2cdafccd0c6144ef6950ed3e8c48
             }
         ]
     },

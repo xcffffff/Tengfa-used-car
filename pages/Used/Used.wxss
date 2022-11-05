@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .header {
     width: 100%;
     position: fixed;
@@ -43,25 +42,10 @@
 }
 
 .box1 {
-=======
-.choose{
-    margin-top: 40rpx;
-    border-top: 1px solid #caccd1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 750rpx;
-    height: 70rpx;
-    padding-left: 25rpx;
-    padding-right: 25rpx;
-}
-.list{
->>>>>>> 2cb16c83928d2cdafccd0c6144ef6950ed3e8c48
     display: flex;
     align-items: center;
     width: 150rpx;
     height: 70rpx;
-<<<<<<< HEAD
     margin-left: 25rpx;
 }
 
@@ -305,68 +289,4 @@
     font-size: 30rpx;
     color: #e73424;
     padding-bottom: 50rpx;
-=======
-}
-.list>image{
-    width: 30rpx;
-    height: 30rpx;
-}
-.list>text{
-    font-size: 35rpx;
-}
-.method{
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    margin-top: 30rpx;
-    width: 750rpx;
-    height: 70rpx;
-    padding-left: 25rpx;
-}
-.list1{
-    width: 150rpx;
-    height: 60rpx;
-    background-color: #6d6e70;
-    font-size: 25rpx;
-    border-radius: 30rpx;
-    text-align: center;
-    line-height: 60rpx;
-    margin-right: 30rpx;
-}
-.box4{
-    width: 750rpx;
-
-}
-
-.list2{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 700rpx;
-    margin-left: 25rpx;
-}
-.car{
-    width: 340rpx;
-    margin-top: 20rpx;
-}
-.car>image{
-    width: 100%;
-    height: 250rpx;
-    border-radius: 20rpx;
-}
-.name{
-    font-size: 32rpx;
-    font-weight: 700;
-}
-.xq{
-    display: flex;
-    align-items: center;
-    width: 340rpx;
-    height: 40rpx;
-}
-.xq>text{
-    font-size: 25rpx;
-    margin-right: 10rpx;
->>>>>>> 2cb16c83928d2cdafccd0c6144ef6950ed3e8c48
 }
