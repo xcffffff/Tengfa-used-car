@@ -10,10 +10,37 @@
             "list": [
                 {
                     "name": "",
+<<<<<<< HEAD
+=======
+                    "pathName": "pages/detail/detail",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+>>>>>>> 2cb16c83928d2cdafccd0c6144ef6950ed3e8c48
                     "pathName": "pages/Used/Used",
                     "query": "",
                     "launchMode": "default",
                     "scene": null
+<<<<<<< HEAD
+=======
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/san/san",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/sed/sed",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+>>>>>>> 2cb16c83928d2cdafccd0c6144ef6950ed3e8c48
                 }
             ]
         }

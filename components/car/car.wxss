@@ -1,0 +1,53 @@
+.box{
+    width: 750rpx;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700rpx;
+    margin-left: 25rpx;
+    margin-top: 30rpx;
+ 
+}
+.head>text{
+    font-size: 40rpx;
+    font-weight: 700;
+}
+.head>view{
+    font-size: 30prx;
+    margin-right: 20rpx;
+    color: #9f9fa3;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 700rpx;
+    margin-left: 25rpx;
+}
+.car{
+    width: 340rpx;
+    margin-top: 20rpx;
+}
+.car>image{
+    width: 100%;
+    height: 250rpx;
+    border-radius: 20rpx;
+}
+.name{
+    font-size: 32rpx;
+    font-weight: 700;
+}
+.xq{
+    display: flex;
+    align-items: center;
+    width: 340rpx;
+    height: 40rpx;
+}
+.xq>text{
+    font-size: 25rpx;
+    margin-right: 10rpx;
+}

@@ -1,0 +1,20 @@
+<!--components/chooseCar/chooseCar.wxml-->
+<view class="box">
+    <view class="head">便捷选车</view>
+    <view class="list">
+        <view class="car" wx:for="{{car}}" wx:key="index">
+                <image src="{{item.logo}}"></image>
+                <view>{{item.label}}</view>
+        </view>
+    </view>
+    <view class="list1">
+            <view class="qian" wx:for="{{Price}}" wx:key="index">
+                {{item.label}}
+            </view>
+    </view>
+    <view class="list2">
+            <view class="xing"  wx:for="{{Models}}" wx:key="index">
+                {{item.label}}
+             </view>
+    </view>
+</view>

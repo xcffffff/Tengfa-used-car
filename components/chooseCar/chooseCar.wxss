@@ -1,0 +1,53 @@
+.box{
+  width: 750rpx;
+  height: 500rpx;
+  /* background-color: aquamarine; */
+  margin-top: 80rpx;
+}
+.head{
+    width: 700rpx;
+    height: 60rpx;
+    margin-left: 25rpx;
+    font-weight: 700;
+}
+.list{
+    margin-top: 20rpx;
+    display: flex;
+    width: 700rpx;
+    margin-left: 25rpx;
+    /* overflow-x: scroll; */
+    box-sizing: border-box;
+    height: 150rpx;
+}
+.car{
+    width: 200rpx;
+    height: 150rpx;
+}
+.car>image{
+    width: 100rpx;
+    height: 100rpx;
+}
+.car>view{
+    font-size: 28rpx;
+    margin-left: 25rpx;
+}
+.list1,
+.list2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700rpx;
+    height: 100rpx;
+    margin-left: 25rpx;
+    margin-top: 20rpx;
+}
+.qian,
+.xing{
+    text-align: center;
+    line-height: 80rpx;
+    width: 160rpx;
+    height: 80rpx;
+    border-radius: 30rpx;
+    font-size: 25rpx;
+    background-color: #9f9fa3;
+}

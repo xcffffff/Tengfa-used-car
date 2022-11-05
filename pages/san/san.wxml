@@ -1,0 +1,5 @@
+<view class="containers">
+    <ec-canvas id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ ec }}" bind:init="echartInit"></ec-canvas>
+</view>
+
+<view bindtap="cl" class="dj">切换echarts</view>

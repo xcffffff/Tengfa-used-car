@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <view class="usedCar">
     <view class="mask" hidden="{{maskFlag}}"></view>
     <view class="header">
@@ -78,31 +77,5 @@
                 </view>
             </view>
         </view>
-=======
-<tb></tb>
-<sou></sou>
-<view class="choose">
-   <view class="list" wx:for="{{arr}}" wx:key="index">
-        <text>{{item}}</text>
-        <image src="../../static/icons/xiajiantou.png"></image>
-   </view>
-</view>
-<view class="method">
-    
-    <view class="list1" wx:for="{{arr1}}" wx:key="index">{{item}}</view>
-</view>
-<view class="box4">
-    <view class="list2" >
-            <view class="car" wx:for="{{arr2}}" wx:key="index" bindtap="tz" data-id="{{item.ind}}">
-                    <image src="{{item.cover}}"></image>
-                    <view class="name">{{item.carName}}</view>
-                    <view class="xq">
-                    <text>{{item.dateOfRegistration}}日</text>
-                    <text>/</text>
-                    <text>{{item.mileage}}万公里</text>
-                    </view>
-                    <view class="qian">{{item.currentPrice}}万</view>
-            </view>
->>>>>>> 2cb16c83928d2cdafccd0c6144ef6950ed3e8c48
     </view>
 </view>

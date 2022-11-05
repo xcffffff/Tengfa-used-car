@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "appid": "wxe4dff3b6bfe1ec29",
+=======
+    "appid": "wxe54e20e573cc627f",
+>>>>>>> 2cb16c83928d2cdafccd0c6144ef6950ed3e8c48
     "compileType": "miniprogram",
     "libVersion": "2.27.1",
     "packOptions": {

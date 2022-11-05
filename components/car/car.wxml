@@ -1,0 +1,19 @@
+<!--components/car/car.wxml-->
+<view class="box">
+    <view class="head">
+        <text>二手车</text>
+        <view>查看更多 ></view>
+    </view>
+    <view class="list" >
+            <view class="car" wx:for="{{arr}}" wx:key="index" bindtap="tz" data-id="{{item.ind}}">
+                    <image src="{{item.cover}}"></image>
+                    <view class="name">{{item.carName}}</view>
+                    <view class="xq">
+                    <text>{{item.dateOfRegistration}}日</text>
+                    <text>/</text>
+                    <text>{{item.mileage}}万公里</text>
+                    </view>
+                    <view class="qian">{{item.currentPrice}}万</view>
+            </view>
+    </view>
+</view>
